@@ -1,0 +1,27 @@
+{
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#d44231",
+    "activityBar.background": "#d44231",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#114f17",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#d44231",
+    "statusBar.background": "#ae3324",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#d44231",
+    "statusBarItem.remoteBackground": "#ae3324",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#ae3324",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ae332499",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#ae3324",
+  "cSpell.words": [
+    "pokedex"
+  ],
+}

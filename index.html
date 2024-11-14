@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.min.css"
+    integrity="sha512-fXnjLwoVZ01NUqS/7G5kAnhXNXat6v7e3M9PhoMHOTARUMCaf5qNO84r5x9AFf5HDzm3rEZD8sb/n6dZ19SzFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>Pokemon</title>
+</head>
+
+<body>
+  <!-- SECTION -->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand bg-dark text-light px-2">
+      <a class="navbar-brand" href="#">
+        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
+          loading="lazy">
+        <span class="ml-2">Pokemon</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- NAVLINKS -->
+          <!-- <a href="#/about" class="nav-link">About</a> -->
+        </div>
+      </div>
+      <div class="flex-grow-1 justify-content-end align-items-center d-flex" id="authstate"></div>
+    </nav>
+  </header>
+
+  <!-- SECTION -->
+  <main class="container-fluid">
+    <section class="row">
+      <div class="col-md-2">
+        <section id="pokemon-list" class="row bg-light shadow">
+
+        </section>
+      </div>
+
+      <div id="active-pokemon" class="col-md-8">
+        <!-- <div
+          class="border border-1 border-danger rounded text-success p-2 h-100 d-flex flex-column justify-content-between">
+          <div class="border border-1 border-success rounded px-3 py-1 d-flex justify-content-between text-capitalize">
+            <span>name</span>
+            <span>nickname</span>
+          </div>
+          <div class="d-flex justify-content-center">
+            <img src="${this.img}" alt="Front of name" class="w-25">
+            <img src="" alt="Back of name" class="w-25">
+          </div>
+          <div>
+            <div class="border border-1 border-success rounded p-3">
+              <div class="mb-2 d-flex gap-2">
+                6
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Health:</span>
+                <span>6 hp</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Attack:</span>
+                <span>6 ap</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Defense:</span>
+                <span>6 dp</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Speed:</span>
+                <span>6 sp</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Weight:</span>
+                <span>6 lbs</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Height:</span>
+                <span>6 ft</span>
+              </div>
+            </div>
+            <button>button</button>
+          </div> -->
+      </div>
+      </div>
+
+      <div class="col-md-2">
+        <h3>My Pokemon</h3>
+        <hr>
+        <section id="my-pokemon" class="row bg-light shadow">
+        </section>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- SECTION -->
+  <footer class="bg-dark text-light">
+    <div class="text-center no-select">
+      <p class="mb-0"><small>Made with 💖 by CodeWorks</small></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22/auth0-spa-js.production.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jakeoverall/auth0provider-client/browser/Auth0Provider.js"></script>
+  <script src="https://cdn.socket.io/4.1.1/socket.io.min.js"
+    integrity="sha384-cdrFIqe3RasCMNE0jeFG9xJHog/tgOVC1E9Lzve8LQN1g5WUHo0Kvk1mawWjxX7a"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+
+  <script src="app/App.js" type="module"></script>
+</body>
+
+</html>
